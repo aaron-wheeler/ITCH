@@ -19,7 +19,6 @@ bin/*
 data/.DS_Store
 
 # my files
-CustomBookConstructor.sh
 tickers.txt
 days.txt
 proc_tickers_days_log.txt

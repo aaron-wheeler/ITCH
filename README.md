@@ -132,6 +132,10 @@ this will create two output .csv files, namely:
 /../../ITCH/data/messages/03272019.PSX_ITCH50_AAPL_message.csv
 ```
 
+## Reconstructing multiple files
+
+The `./CustomBookConstructor.sh` script can automate the processing of several unique files. Once the executable is made, the program can read lines of symbols off a `tickers.txt` file and reconstruct the two output .csv files for each line of dates listed in a `days.txt` file (assuming they exist in `/../../ITCH/data/binary`).
+
 # Detailed output description
 
 Here we report detailed description of message file output of the program:
